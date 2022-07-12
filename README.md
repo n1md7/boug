@@ -1,1 +1,3 @@
-# boug
+# Boug
+
+Back-office user generator

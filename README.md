@@ -3,3 +3,10 @@
 # Boug
 
 Back-office user generator
+
+```bash
+$ npm install -g boug
+$ boug --help
+#or
+$ npx boug --help
+```

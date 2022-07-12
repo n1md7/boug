@@ -4,6 +4,9 @@
   "description": "Backoffice user generator script",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "boug": "index.js"
+  },
   "scripts": {
     "test": "echo 'Implement me!'",
     "prepare": "husky install"
@@ -24,8 +27,8 @@
     "**/*": "prettier --write --ignore-unknown"
   },
   "engines": {
-    "node": "18.2.0",
-    "npm": "8.9.0"
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
   },
   "engineStrict": true,
   "dependencies": {
